@@ -1,7 +1,7 @@
 # Integrantes
 Pedro Américo Marra,
 Victor Eduardo Machado da Silva Barbosa,
-Hilton luan Barros
+Hilton Luan Barros
 
 # Projeto de Automação de Testes - Portal da Transparência PB
 
