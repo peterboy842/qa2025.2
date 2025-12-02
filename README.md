@@ -30,7 +30,7 @@ O projeto segue o padrão **Page Object Model (POM)** com a seguinte estrutura d
 │   └── support            # Configurações globais e comandos customizados
 ├── cypress.config.js      # Configuração do Cypress e Plugins (Esbuild)
 ├── package.json           # Dependências e Scripts
-└── README.md              # Documentação do Projeto
+└── README.md              # Documentação do Projet
 ```
 
 ## Pré-requisitos
@@ -67,23 +67,3 @@ Para rodar todos os testes no terminal (útil para CI/CD):
 ```bash
 npx cypress run
 ```
-
-## Cenários Automatizados
-
-Atualmente, o projeto cobre o seguinte fluxo principal no **Portal da Transparência da Paraíba**:
-
-### Busca Rápida de Despesas (Home)
-Valida a funcionalidade de filtro rápido na página inicial, garantindo que o cidadão consiga consultar gastos filtrando por:
-* **Área/Função** (Ex: Educação, Saúde, Segurança)
-* **Ano do Exercício** (Ex: 2025, 2024, etc.)
-
-Foram implementados **6 cenários de teste** utilizando *Scenario Outline* para variação de dados.
-
-## Autores / Grupo
-
-* **Nome do Aluno 1**
-* **Nome do Aluno 2**
-* **Nome do Aluno 3**
-
----
-*Projeto desenvolvido para a disciplina de Quality Assurance (QA).*
